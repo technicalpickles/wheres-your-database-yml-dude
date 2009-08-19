@@ -1,4 +1,4 @@
-desc "Make sure you database.yml is in place"
+desc "Make sure your database.yml is in place"
 task :wheres_your_database_yml_dude do
   unless File.exists? File.join("config", "database.yml")
     puts "Where's your database.yml, dude?"

@@ -1,5 +1,7 @@
 # [Where's your database.yml, dude?](http://www.youtube.com/watch?v=d1wuijgeaaY)
 
+**This plugin is no longer maintained since Rails no longer supports plugins (just gems). If you are interested in updating / taking this over, please open an issue**.
+
 <object width="425" height="344"><param name="movie" value="http://www.youtube.com/v/d1wuijgeaaY&hl=en&fs=1&"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/d1wuijgeaaY&hl=en&fs=1&" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="425" height="344"></embed></object>
 
 In rails apps, it is considered a good practice to not include config/database.yml under version control. Developers might have different settings, ie someone prefers mysql, or postgres, or even sqlite3. It's also bad to have production passwords in it, so many projects will copy an appropriate database.yml in at deploy time.
